@@ -21,7 +21,7 @@ hr.light {
 }
 
 a {
-  color: #F05F40;
+  color: #00ffff;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -47,10 +47,6 @@ h6 {
   background-color: #2d2d2d !important;
 }
 
-.text-faded {
-  color: rgba(255, 255, 255, 0.7);
-}
-
 section {
   padding: 8rem 0;
 }
@@ -59,7 +55,9 @@ section {
   margin-top: 0;
 }
 
-
+.text-faded {
+  color:  #999999;
+}
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
@@ -72,7 +70,7 @@ section {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #F05F40;
+  color: #ff7bac;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -148,7 +146,7 @@ section {
 
 header.masthead {
   padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
+  padding-bottom: 3.5rem;
   background-image: url("Background.png");
   width:100%;
   background-position: center center;
@@ -213,8 +211,15 @@ header.masthead p {
     justify-content:center
 }
 .box-row .box-row img{
-    width:30rem;
-    height:30rem;
+    width:50%;
+    height:50%;
+    border-radius:1rem;
+    margin:1rem
+}
+
+.box-row .box-row .card-img-top flat{
+    width:50%;
+    height:70%;
     border-radius:1rem;
     margin:1rem
 }
