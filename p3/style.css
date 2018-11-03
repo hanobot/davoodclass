@@ -30,6 +30,11 @@ a:hover {
   color: #00ffff;
 }
 
+.social {
+  overflow: hidden;
+  width: 40%;
+}
+
 h1,
 h2,
 h3,
